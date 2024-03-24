@@ -1,0 +1,23 @@
+﻿l_english:
+VIN_vietminh_name_text:0 "Viet Minh" 
+VIN_hoianhsang_name_text:0 "Hoi Anh Sang" 
+VIN_vnqph_name_text:0 "VNQPH"
+VIN_vnqdd_name_text:0 "VNQDD"
+
+ VIN_vietminh_loyalty_status:0 "[vietminhLoyaltyStatus]"
+ VIN_vietminh_loyalty_status_amount:0 "[?VIN.VIN_vietminh_loyalty]"
+ VIN_hoianhsang_loyalty_status:0 "[hoianhsangLoyaltyStatus]"
+ VIN_hoianhsang_loyalty_status_amount:0 "[?VIN.VIN_hoianhsang_loyalty]"
+ VIN_vnqdd_loyalty_status:0 "[vnqphLoyaltyStatus]"
+ VIN_vnqdd_loyalty_status_amount:0 "[?VIN.VIN_vnqdd_loyalty]"
+ VIN_vnqph_loyalty_status:0 "[vnqphLoyaltyStatus]"
+ VIN_vnqph_loyalty_status_amount:0 "[?VIN.VIN_vnqph_loyalty]"
+ 
+ BUL_zveno_popularity_status:0 "[GetZvenoPopularityStatus]"
+ vietminh_popularity_status_amount:0 "[?BUL.BUL_zveno_popularity|0]"
+ BUL_bs_popularity_status:0 "[GetBsPopularityStatus]"
+ BUL_bs_popularity_status_amount:0 "[?BUL.BUL_bs_popularity|0]"
+ BUL_bzns_popularity_status:0 "[GetBznsPopularityStatus]"
+ BUL_bzns_popularity_status_amount:0 "[?BUL.BUL_bzns_popularity|0]"
+ BUL_nsm_popularity_status:0 "[GetNsmPopularityStatus]"
+ BUL_nsm_popularity_status_amount:0 "[?BUL.BUL_nsm_popularity|0]"

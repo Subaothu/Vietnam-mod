@@ -1,0 +1,21 @@
+state={
+	id=914
+	name="STATE_914"
+	history={
+		add_core_of = CAM
+		owner = FRA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+
+	}
+	provinces={
+		1620 4330 4596 7645 10204 12167 12260 12288 
+	}
+	manpower=4320000
+	state_category=town
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

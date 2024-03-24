@@ -1,0 +1,126 @@
+oob = "VIN_1936"
+capital = 1
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.7
+set_convoys = 67
+
+
+#Starting tech
+set_technology = {
+
+gw_artillery = 1
+
+infantry_weapons = 1
+	
+support_weapons = 1
+
+}
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+
+	declare_war_on = {
+		target = FRA
+		type = annex_everything
+	}
+}
+
+
+#For start date 1939.1.1
+1939.1.1 = {
+	add_political_power = 1000
+	oob = "VIN_1939"
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.4.18"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 20
+	fascism = 20
+	communism = 50
+	neutrality = 10
+}
+
+#Politics for 1939.1.1
+1939.1.1 = {
+	set_popularities = {
+		democratic = 0
+		fascism = 0
+		communism = 100
+		neutrality = 0
+	}
+}
+
+#Vietminh factons var
+set_variable = { VIN_vietminh_loyalty = 95 }
+set_variable = { vietminh_popularity = 70 }
+set_variable = { VIN_hoianhsang_loyalty = 25 }
+set_variable = { hoianhsang_popularity = 60 }
+set_variable = { VIN_vnqdd_loyalty = 30 }
+set_variable = { vnqdd_popularity = 70 }
+set_variable = { VIN_vnqph_loyalty = 30 }
+set_variable = { vnqph_popularity = 20 } 
+
+recruit_character = nguyen_ai_quoc
+recruit_character = bui_quang_chieu
+recruit_character = nguyen_thai_hoc
+recruit_character = duong_van_duong
+recruit_character = van_tien_dung
+recruit_character = nguyen_son
+recruit_character = vo_nguyen_giap
+recruit_character = hoang_van_thai
+recruit_character = vuong_thua_vu
+recruit_character = nguyen_binh
+recruit_character = tran_tu_binh
+recruit_character = nguyen_chi_thanh
+recruit_character = phung_chi_kien
+recruit_character = chu_van_tan
+recruit_character = hoang_sam
+recruit_character = hoang_van_ba
+recruit_character = hoang_tra
+recruit_character = ta_xuan_thu_
+recruit_character = tran_trong_kim
+recruit_character = le_thiet_hung
+
+
+recruit_character = le_duc_tho
+
+recruit_character = pham_van_dong 
+
+recruit_character = tran_huy_lieu
+
+recruit_character = nguyen_tuong_long
+
+recruit_character = truong_chinh
+
+recruit_character = le_hong_phong
+
+recruit_character = vu_dinh_hoe
+
+recruit_character = tran_phu
+
+recruit_character = nguyen_van_cu
+
+recruit_character = nguyen_hai_than
+
+#Vietnam Army dynamic idea
+
+add_dynamic_modifier = { modifier = VIN_liberation_army_dynamic_modifier }
+
+set_variable = { VIN_liberation_army_army_core_defence_factor = 0.1 }
+set_variable = { VIN_liberation_army_army_org_factor = -0.2 }
+set_variable = { VIN_liberation_army_max_planning = -0.2 }
+set_variable = { VIN_liberation_army_supply_consumption_factor = -0.3 }
+
+#Vietnam starting ideas
+add_ideas = VIN_fledgling_government 
+add_ideas = VIN_land_problem 
+add_ideas = VIN_vietnam_air_command_center
+add_ideas = VIN_vietnam_navy_command_center
