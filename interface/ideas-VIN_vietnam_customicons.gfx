@@ -1,0 +1,63 @@
+spriteTypes = { 
+	##Icon For: Air Forces Research Department
+	SpriteType = { 
+		name = "GFX_idea_VIN_air_forces_research_department-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_air_forces_research_department-1.dds"
+	}
+
+	##Icon For: Vietnam Electricity
+	SpriteType = { 
+		name = "GFX_idea_VIN_vietnam_electricity-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_vietnam_electricity-1.dds"
+	}
+
+	##Icon For: Vietnam railway
+	SpriteType = { 
+		name = "GFX_idea_VIN_vietnam_railway-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_vietnam_railway-1.dds"
+	}
+
+	##Icon For: Hanoi Industry Factory
+	SpriteType = { 
+		name = "GFX_idea_VIN_hanoi_industry_factory-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_hanoi_industry_factory-1.dds"
+	}
+
+	##Icon For: Soviet-Viet resourse company
+	SpriteType = { 
+		name = "GFX_idea_VIN_sovietviet_resourse_company-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_sovietviet_resourse_company-1.dds"
+	}
+
+	##Icon For: Vietnam Artillery Factory
+	SpriteType = { 
+		name = "GFX_idea_VIN_vietnam_artillery_factory-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_vietnam_artillery_factory-1.dds"
+	}
+
+	##Icon For: Transportation Company
+	SpriteType = { 
+		name = "GFX_idea_VIN_transportation_company-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_transportation_company-1.dds"
+	}
+
+	##Icon For: Vietnam Defence Industry
+	SpriteType = { 
+		name = "GFX_idea_VIN_vietnam_defence_industry-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_vietnam_defence_industry-1.dds"
+	}
+
+	##Icon For: Hai Phong Shipyard
+	SpriteType = { 
+		name = "GFX_idea_VIN_hai_phong_shipyard-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_hai_phong_shipyard-1.dds"
+	}
+
+	##Icon For: Morozov Design Bureau
+	SpriteType = { 
+		name = "GFX_idea_VIN_morozov_design_bureau-1"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_morozov_design_bureau-1.dds"
+	}
+
+ 
+ }

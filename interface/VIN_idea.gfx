@@ -1,0 +1,27 @@
+spriteTypes = { 
+	##Icon For: Fledgling government
+	SpriteType = { 
+		name = "GFX_idea_VIN_fledgling_government-1233"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_fledgling_government-1233.dds"
+	}
+
+	##Icon For: Vietnam Air Command Center
+	SpriteType = { 
+		name = "GFX_idea_VIN_vietnam_air_command_center-499005"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_vietnam_air_command_center-499005.dds"
+	}
+
+	##Icon For: land problem
+	SpriteType = { 
+		name = "GFX_idea_VIN_land_problem-508258"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_land_problem-508258.dds"
+	}
+
+	##Icon For: Vietnam Arm Forces
+	SpriteType = { 
+		name = "GFX_idea_VIN_vietnam_arm_forces-497899"
+		texturefile = "gfx/interface/ideas/vietnam-ideas/VIN_vietnam_arm_forces-497899.dds"
+	}
+
+ 
+ }

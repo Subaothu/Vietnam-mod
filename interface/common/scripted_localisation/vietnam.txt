@@ -1,0 +1,79 @@
+defined_text = {
+	name = vietminhLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = vin_vietminh_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = VIN
+			has_country_flag = vin_vietminh_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = VIN_vietminh_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = hoianhsangLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = vin_hoianhsang_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = VIN
+			has_country_flag = vin_hoianhsang_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = VIN_hoianhsang_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = vnqphLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = vin_vnqph_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = VIN
+			has_country_flag = vin_vnqph_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = VIN_vnqph_loyalty_status_amount
+	}
+}
+
+defined_text = {
+	name = vnqddLoyaltyStatus
+	text = {
+		trigger = {
+			has_country_flag = vin_vnqdd_destroyed_flag
+		}
+		localization_key = BUL_loyalty_status_crushed
+	}
+	text = {
+		trigger = {
+			original_tag = VIN
+			has_country_flag = vin_vnqdd_integrated_flag
+		}
+		localization_key = BUL_loyalty_status_integrated
+	}
+	text = {
+		localization_key = VIN_vnqdd_loyalty_status_amount
+	}
+}

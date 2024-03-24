@@ -1,0 +1,416 @@
+characters={
+	van_tien_dung = {
+		name = "van_tien_dung"
+		portraits = {
+			army = {
+				large = "/gfx/leaders/VIN/VIN_Vantiendung.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Vantiendungid.dds"
+			}
+		}
+		corps_commander = {
+			traits = {infantry_officer  media_personality commando trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		legacy_id = 167421630
+		}
+                advisor = {
+                        slot = air_chief
+                        traits = { army_concealment_2 }
+						cost = 100
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+	nguyen_son = {
+		name = "nguyen_son"
+		portraits = {
+			army = {
+				#Custom images for Nguyen Son
+				large = "/gfx/leaders/VIN/VIN_Nguyenson.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Nguyensonid.dds"
+			}
+		}
+		corps_commander = {
+			traits = {trait_mountaineer  infantry_officer trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 167421631
+		}
+		            advisor = {
+                        slot = high_command
+                        traits = {  army_commando_2 }
+						cost = 100
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+
+	vo_nguyen_giap = {
+		name = "Vo Nguyen Giap"
+		portraits = {
+			army = {
+				#Custom images for Vo Nguyen Giap
+				large = "/gfx/leaders/VIN/VIN_Vonguyengiap.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Vonguyengiapid.dds"
+			}
+		}
+		field_marshal = {
+			traits = {brilliant_strategist bearer_of_artillery defensive_doctrine  politically_connected organizer trait_mountaineer trait_VIN_vietminh_leader }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 5
+		legacy_id = 167421632
+		}
+                advisor = {
+                        slot = army_chief
+                        idea_token = vo_nguyen_giap
+                        traits = { army_chief_organizational_3 }
+						cost = 100
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+				advisor={
+			slot = theorist
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {    	
+				superior_firepower_expert
+			}
+		}
+	}
+
+
+	hoang_van_thai = {
+		name = "hoang_van_thai"
+		portraits = {
+			army = {
+				#Custom images for Hoang Van Thai
+				large = "/gfx/leaders/VIN/VIN_Hoangvanthai.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Hoangvanthaiid.dds"
+			}
+		}
+		corps_commander = {
+			traits = {logistics_wizard infantry_officer  trait_cautious trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		legacy_id = 167421633
+		}
+				 advisor = {
+                        slot = high_command
+                        traits = {  army_logistics_2 }
+						cost = 100
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+	duong_van_duong = {
+		name = "duong_van_duong"
+		portraits = {
+			army = {
+			
+				large = "/gfx/leaders/VIN/VIN_Duong_Van_Duong.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Duongvanduongid.dds"
+			}
+		}
+		corps_commander = {
+			traits = {   }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		legacy_id = 167421687
+		}
+
+	}
+
+	vuong_thua_vu = {
+		name = "vuong_thua_vu"
+		portraits = {
+			army = {
+				large = "/gfx/leaders/VIN/VIN_Vuongthuavu.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Vuongthuavuid.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		legacy_id = 167421634
+		}
+				 advisor = {
+                        slot = high_command
+                        traits = {   army_infantry_2 }
+		      				cost = 100
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+
+#Create military leader - Nguyen Binh
+	nguyen_binh = {
+		name = "nguyen_binh"
+		portraits = {
+			army = {
+				#Custom images for Nguyen Binh
+				large = "/gfx/leaders/VIN/VIN_Nguyenbinh.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_NguyenBinhid.dds"
+			}
+		}
+		corps_commander = {
+			traits = { reckless ranger trickster trait_VIN_vietminh_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+		legacy_id = 167421635
+		}
+				 advisor = {
+                        slot = high_command
+                        traits = {   army_regrouping_2 }
+		      				cost = 100
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+
+#Create military leader - Tran Tu Binh
+	tran_tu_binh = {
+		name = "tran_tu_binh"
+		portraits = {
+			army = {
+				#Custom images for Tran Tu Binh
+				large = "/gfx/leaders/VIN/VIN_Trantubinh.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Trantubinhid.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer scavenger trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 3
+		legacy_id = 167421636
+		}
+	}
+
+#Create military leader - Nguyen Chi Thanh
+	nguyen_chi_thanh = {
+		name = "nguyen_chi_thanh"
+		portraits = {
+			army = {
+				#Custom images for Nguyen Chi Thanh
+				large = "/gfx/leaders/VIN/VIN_Nguyenchithanh.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Nguyenchithanhid.dds"
+			}
+		}
+		corps_commander = {
+			traits = {commando  politically_connected ranger infantry_expert trait_VIN_vietminh_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+		legacy_id = 167421637
+		}
+                advisor = {
+                        slot = army_chief
+                        idea_token = nguyen_chi_thanh
+                        traits = { army_chief_defensive_2 }
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+
+#Create military leader - Phung Chi Kien
+	phung_chi_kien = {
+		name = "phung_chi_kien"
+		portraits = {
+			army = {
+				#Custom images for Phung Chi Kien
+				large = "/gfx/leaders/VIN/VIN_Phungchikien.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Phungchikienid.dds"
+			}
+		}
+		field_marshal = {
+			traits = {infantry_officer unyielding_defender  old_guard inflexible_strategist trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+		legacy_id = 167421638
+		}
+               advisor = {
+                        slot = army_chief
+                        traits = { army_chief_drill_1 }
+			allowed = {
+				original_tag = VIN
+		      				cost = 50				
+			}      
+                }				
+	}
+
+#Create military leader - Chu Van Tan
+	chu_van_tan = {
+		name = "chu_van_tan"
+		portraits = {
+			army = {
+				#Custom images for Chu Van Tan
+				large = "/gfx/leaders/VIN/VIN_Chuvantan.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Chuvantanid.dds"
+			}
+		}
+		corps_commander = {
+			traits = { ranger infantry_officer trait_VIN_vietminh_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		legacy_id = 167421639
+		}
+				 advisor = {
+                        slot = high_command
+                                         traits = { army_entrenchment_1 }
+		      				cost = 50
+			allowed = {            				 
+				original_tag = VIN
+			}      				
+	}
+}
+
+
+
+#Create military leader - Hoang Sam
+	hoang_sam = {
+		name = "hoang_sam"
+		portraits = {
+			army = {
+				#Custom images for Hoang Sam
+				large = "/gfx/leaders/VIN/VIN_Hoangsam.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Hoangsamid.dds"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_officer trait_VIN_vietminh_leader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1674216310
+		}
+	}
+
+#Create military leader - Hoang Van Ba
+	hoang_van_ba = {
+		name = "hoang_van_ba"
+		portraits = {
+			army = {
+				#Custom images for Hoang Van Ba
+				large = "/gfx/leaders/VIN/VIN_Hoangvanba.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Hoangvanbaid.dds"
+			}
+		}
+		corps_commander = {
+			traits = { war_hero scavenger irregulars_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		legacy_id = 1674216311
+		}
+	}
+
+	hoang_tra = {
+		name = "hoang_tra"
+		portraits = {
+			army = {
+				#Custom images for Hoang Tra
+				large = "/gfx/leaders/VIN/VIN_Hoangtra.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Hoangtraid.dds"
+			}
+		}
+		navy_leader = {
+			traits = { trait_VIN_vietminh_leader  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+			legacy_id = 367421630
+		}
+	}
+
+	ta_xuan_thu_ = {
+		name = "ta_xuan_thu_"
+		portraits = {
+			army = {
+				#Custom images for Ta Xuan Thu 
+				large = "/gfx/leaders/VIN/VIN_Taxuanthu.dds"
+				small = "/gfx/interface/ideas/VIN/VIN_Taxuanthuid.dds"
+			}
+		}
+		navy_leader = {
+			traits = { trait_VIN_vietminh_leader  }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			maneuvering_skill = 1
+			coordination_skill = 2
+			legacy_id = 367421631
+		}
+                advisor = {
+                        slot = navy_chief
+                        traits = { navy_chief_commerce_raiding_2 }
+			allowed = {
+				original_tag = VIN
+			}      
+                }
+	}
+	le_thiet_hung={
+		name= "le_thiet_hung"
+		portraits={
+			army={
+				small="/gfx/interface/ideas/VIN/VIN_Lethiethungid.dds"
+			}
+		}
+		advisor={	
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = VIN
+			}
+			traits = {
+				army_cavalry_2
+			}
+			cost = 100
+		}
+	}
+}

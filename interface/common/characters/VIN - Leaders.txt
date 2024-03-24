@@ -1,0 +1,61 @@
+characters={
+nguyen_thai_hoc = {
+	name = nguyen_thai_hoc
+	portraits = {
+		civilian = {
+			#Custom image for Nguyen Thai Hoc
+			large = "/gfx/leaders/VIN/VIN_Nguyenthaihoc.dds"
+		}
+	}
+	country_leader = {
+		expire = "1945.12.12"
+		ideology = despotism
+		traits = {  }
+	}
+}
+
+bui_quang_chieu = {
+	name = bui_quang_chieu
+	portraits = {
+		civilian = {
+			#Custom image for Bui Quang Chieu
+			large = "/gfx/leaders/VIN/VIN_Buiquangchieu.dds"
+		}
+	}
+	country_leader = {
+		expire = "1966.12.1"
+		ideology = liberalism
+		traits = { headstrong  }
+	}
+}
+
+nguyen_ai_quoc = {
+	name = nguyen_ai_quoc
+	portraits = {
+		civilian = {
+			#Custom image for Nguyen Ai Quoc
+			large = "/gfx/leaders/VIN/VIN_Nguyenaiquoc.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965"
+		ideology = marxism
+		traits = { veteran_communist }
+	}
+}
+tran_trong_kim = {
+	name = tran_trong_kim
+	portraits = {
+		civilian = {
+			#Custom image for Tran Trong Kim
+			large = "/gfx/leaders/VIN/VIN_Trantrongkim.dds"
+		}
+	}
+	country_leader = {
+		expire = "1966.12.1"
+		ideology = fascism_ideology
+		traits = {  }
+	}
+}
+
+}

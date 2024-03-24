@@ -1,0 +1,18 @@
+
+Vietminh_factions = {
+	priority = 10
+
+	icon = power_struggle
+
+	picture = GFX_decision_cat_picture_faction_management_bulgaria
+
+	scripted_gui = vietminh_factions_decision_ui
+
+	allowed = {
+		original_tag = VIN 
+                has_dlc = "Battle for the Bosporus"
+	}
+	visible = {
+		is_subject = no
+	}
+}

@@ -1,0 +1,12 @@
+
+Vietminh_factions = {
+        test_flag = {
+        
+        icon = generic_prepare_civil_war
+complete_effect = {        
+        set_country_flag = vin_hoianhsang_integrated_flag
+        add_to_variable = { VIN_hoianhsang_loyalty = 25 }
+        add_to_variable = { VIN_vietminh_loyalty = 25 }
+}
+}
+}

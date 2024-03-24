@@ -1,0 +1,15 @@
+leader_traits = {
+	trait_VIN_vietminh_leader = {
+
+		type = all
+		trait_type = personality_trait
+
+		allowed = {
+			FROM = { original_tag = VIN }
+		}
+
+		new_commander_weight = {
+			factor = 0
+		}
+	}
+}

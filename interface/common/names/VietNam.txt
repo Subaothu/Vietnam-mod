@@ -1,0 +1,16 @@
+VIN = {
+	male = {
+		names = { 
+		
+			"Nguyen Phuoc" "Ton That" "Noang Cao" "Bui An" Nguyen Truong Tran
+		
+		  }
+	}
+	female = {
+		names = {  }
+	}
+	surnames = { "vinh Thuy" Han Tuan "Vinh San" Cuong Khai Nien Than Quang "Trong Hiep" "Mien Lam" "Mien Trinh" "Buu Lan"
+
+	}
+	callsigns = { "Goose" "Iceman" "Maverick" "Apollo" "Animal" "Boom-Boom" "Badger" "Brick" "Cajun" "Challenger" "Chip" "Eagle" "Ghost" "Hawk" "Jaws" "Moses" "Mad Dog"}
+}

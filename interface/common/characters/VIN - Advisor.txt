@@ -1,0 +1,212 @@
+characters={
+	le_duc_tho ={
+		name= "VIN_le_duc_tho"
+		portraits={
+			civilian={
+				small="/gfx/interface/ideas/VIN/VIN_Leducthoid.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = VIN_le_duc_tho
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {
+				ideological_crusader 
+			}
+		}
+	}
+
+	pham_van_dong={
+		name= "VIN_pham_van_dong"
+		portraits={
+			civilian={
+				small="/gfx/interface/ideas/VIN/VIN_Phamvandongid.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = VIN_pham_van_dong
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {
+				silent_workhorse 
+			}
+		}
+	}
+
+	tran_huy_lieu={
+		name= "VIN_tran_huy_lieu"
+		idea_token = VIN_tran_huy_lieu
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = VIN_tran_huy_lieu
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {
+				war_industrialist 
+			}
+		}
+	}
+	
+	nguyen_tuong_long={
+		name= "nguyen_tuong_long"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = nguyen_tuong_long
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {
+				economist
+			}
+		}
+	}
+	
+	truong_chinh={
+		name= "truong_chinh"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = truong_chinh
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {
+				communist_revolutionary
+			}
+		}
+	}		
+
+	le_hong_phong={
+		name= "le_hong_phong"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = le_hong_phong
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {
+				peoples_commissar_of_finance
+			}
+		}
+	}
+	
+	vu_dinh_hoe={
+		name= "vu_dinh_hoe"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = vu_dinh_hoe
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {    	
+				education_reformer
+			}
+		}
+	}
+	
+	tran_phu={
+		name= "tran_phu"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = tran_phu
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {    	
+				marxist_priest
+			}
+		}
+	}
+	
+	nguyen_van_cu={
+		name= "nguyen_van_cu"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = nguyen_van_cu
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {    	
+				patriotic_socialist
+			}
+		}
+	}
+	
+	nguyen_hai_than={
+		name= "nguyen_hai_than"
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = nguyen_hai_than
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {    	
+				fascist_demagogue
+			}
+		}
+	}
+	
+	VIN_chu_van_tan={
+		name= "chu_van_tan_id"
+		portraits={
+			civilian={
+				small="/gfx/interface/ideas/VIN/VIN_Chuvantanid.dds"
+			}
+		}
+		advisor={
+			slot = theorist
+			allowed  = {
+				original_tag  = VIN
+			}
+			traits  = {    	
+				military_theorist
+			}
+		}
+		cost = 100
+	}
+	
+}

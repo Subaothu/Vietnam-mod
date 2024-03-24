@@ -1,0 +1,49 @@
+guerrilla_forces = {
+	regroup_guerrilla_forces_in_south_annam = {
+		cost = 15
+		fire_only_once = yes
+		available = {
+			controls_state = 911
+		}
+		complete_effect = {
+							random_controlled_state = {
+					prioritize = { 911 }
+					create_unit = {
+						division = "division_template = \"League War Militia\" start_experience_factor = 0.4"
+						owner = VIN
+					}
+				}
+		}
+	}
+	regroup_guerrilla_forces_in_north_annam = {
+		cost = 15
+		fire_only_once = yes
+		available = {
+			controls_state = 910
+		}
+		complete_effect = {
+			random_controlled_state = {
+					prioritize = { 910 }
+					create_unit = {
+						division = "division_template = \"League War Militia\" start_experience_factor = 0.4"
+						owner = VIN
+					}
+		}
+	}
+	regroup_guerrilla_forces_in_mekong_delta = {
+		cost = 15
+		fire_only_once = yes
+		available = {
+			controls_state = 286
+		}
+		complete_effect = {
+							random_controlled_state = {
+					prioritize = { 286 }
+					create_unit = {
+						division = "division_template = \"League War Militia\" start_experience_factor = 0.4"
+						owner = VIN
+					}
+				}
+		}
+	}
+}

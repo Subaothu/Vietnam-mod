@@ -1,0 +1,25 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_trait_trait_VIN_vietminh_leader"
+		texturefile = "gfx/interface/traits/trait_VIN_vietminh_leader.dds"
+	}
+		spriteType = {
+		name = "GFX_decision_faction_VIN_vietminh"
+		texturefile = "gfx/interface/decisions/decision_faction_vietminh.dds"
+	}		
+		spriteType = {
+		name = "GFX_decision_faction_VIN_hoianhsang"
+		texturefile = "gfx/interface/decisions/decision_faction_hoianhsang.dds"
+	}	
+		spriteType = {
+		name = "GFX_decision_faction_VIN_vnqph"
+		texturefile = "gfx/interface/decisions/decision_faction_vnqph.dds"
+	}	
+		spriteType = {
+		name = "GFX_decision_faction_VIN_vnqdd"
+		texturefile = "gfx/interface/decisions/decision_faction_vnqdd.dds"
+	}	
+
+}
+

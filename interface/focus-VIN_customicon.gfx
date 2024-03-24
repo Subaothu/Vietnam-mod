@@ -1,0 +1,305 @@
+spriteTypes = {	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_deploytuvedo-526056"
+		texturefile = "gfx/interface/goals/GFX_VIN_deploytuvedo-526056.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_deploytuvedo-526056_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_deploytuvedo-526056.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_deploytuvedo-526056.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_deploytuvedo-526056.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_begin_the_battle_for_our_people_freedom-384906"
+		texturefile = "gfx/interface/goals/GFX_VIN_begin_the_battle_for_our_people_freedom-384906.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_begin_the_battle_for_our_people_freedom-384906_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_begin_the_battle_for_our_people_freedom-384906.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_begin_the_battle_for_our_people_freedom-384906.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_begin_the_battle_for_our_people_freedom-384906.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_regroup_guerrilla_forces-438138"
+		texturefile = "gfx/interface/goals/GFX_VIN_regroup_guerrilla_forces-438138.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_regroup_guerrilla_forces-438138_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_regroup_guerrilla_forces-438138.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_regroup_guerrilla_forces-438138.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_regroup_guerrilla_forces-438138.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_female_divisions-526055"
+		texturefile = "gfx/interface/goals/GFX_VIN_female_divisions-526055.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_female_divisions-526055_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_female_divisions-526055.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_female_divisions-526055.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_female_divisions-526055.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_booby_trap-526057"
+		texturefile = "gfx/interface/goals/GFX_VIN_booby_trap-526057.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_booby_trap-526057_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_booby_trap-526057.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_booby_trap-526057.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_booby_trap-526057.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_improve_guerrilla_tactics-526060"
+		texturefile = "gfx/interface/goals/GFX_VIN_improve_guerrilla_tactics-526060.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_improve_guerrilla_tactics-526060_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_improve_guerrilla_tactics-526060.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_improve_guerrilla_tactics-526060.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_improve_guerrilla_tactics-526060.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_open_ho_chi_minh_trail-526059"
+		texturefile = "gfx/interface/goals/GFX_VIN_open_ho_chi_minh_trail-526059.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_open_ho_chi_minh_trail-526059_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_open_ho_chi_minh_trail-526059.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_open_ho_chi_minh_trail-526059.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_open_ho_chi_minh_trail-526059.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	##Icon For: 
+	SpriteType = { 
+		name = "GFX_VIN_ho_chi_minh_campaign-498312"
+		texturefile = "gfx/interface/goals/GFX_VIN_ho_chi_minh_campaign-498312.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GFX_VIN_ho_chi_minh_campaign-498312_shine"
+		texturefile = "gfx/interface/goals/GFX_VIN_ho_chi_minh_campaign-498312.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_ho_chi_minh_campaign-498312.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GFX_VIN_ho_chi_minh_campaign-498312.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+}

@@ -1,0 +1,11 @@
+
+VIN_liberation_army_dynamic_modifier = { #NATIONAL SPIRIT
+	enable = { always = yes }
+
+	icon = GFX_idea_generic_communist_army
+
+        army_core_defence_factor = VIN_liberation_army_army_core_defence_factor #0.1
+        army_org_factor = VIN_liberation_army_army_org_factor #-0.2 
+        max_planning = VIN_liberation_army_max_planning #-20
+        supply_consumption_factor = VIN_liberation_army_supply_consumption_factor #-0.3
+}
