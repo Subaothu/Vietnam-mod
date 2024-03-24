@@ -1,0 +1,30 @@
+music = {
+	name = "test_song"
+	file = "test_song.ogg"
+}
+music = {
+	name = "maintheme"
+	file = "muoi_chin_thang_tam.ogg"
+	volume = 0.65
+}
+music = {
+	name = "doan_ve_quoc_quan"
+	file = "doan_ve_quoc_quan.ogg"
+}
+music = {
+	name = "truong_son_dong_truong_son_tay"
+	file = "truong_son_dong_truong_son_tay.ogg"
+}
+music = {
+	name = "muoi_chin_thang_tam"
+	file = "muoi_chin_thang_tam.ogg"
+}music = {
+	name = "Bao_noi_len_roi"
+	file = "Bao_noi_len_roi.ogg"
+}music = {
+	name = "Bac_cung_chung_chau_hanh_quan"
+	file = "Bac_cung_chung_chau_hanh_quan.ogg"
+}music = {
+	name = "dang_da_cho_ta_ca_mua_xuan"
+	file = "dang_da_cho_ta_ca_mua_xuan.ogg"
+}

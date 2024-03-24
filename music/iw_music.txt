@@ -1,0 +1,55 @@
+music_station = "iw_test_station"
+music = {
+	song = doan_ve_quoc_quan
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 25
+		}
+	}
+}
+music = {
+	song = "truong_son_dong_truong_son_tay"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 25
+		}
+	}
+}
+music = {
+	song = "muoi_chin_thang_tam"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 25
+		}
+	}
+}
+music = {
+	song = "Bao_noi_len_roi"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 25
+		}
+	}
+}
+music = {
+	song = "Bac_cung_chung_chau_hanh_quan"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 25
+		}
+	}
+}
+music = {
+	song = "dang_da_cho_ta_ca_mua_xuan"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 25
+		}
+	}
+}
